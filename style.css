@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+.hg-conteudo {
+    background-color: rgb(85, 81, 73);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hg-conteudo>main {
+    background-color: rgb(85, 81, 73);
+    margin: 0 auto;
+    overflow: hidden;
+    flex: 1;
+    text-align: justify;
+    margin-left: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(85, 81, 73);
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hg-conteudo {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.hg-conteudo>nav {
+    order: -1;
+    height: 1000px;
+    border-right: 1px solid black;
+}
+
+.hg-conteudo>main {
+    flex: 1;
+    height: 1000px;
+    border-right: 1px solid black;
+}
+
+@media (min-width: 768px) {
+    .hg-conteudo {
+        flex-flow: row;
+    }
+    .hg-conteudo>aside,
+    .hg-conteudo>nav {
+        flex: 0 0 200px;
+    }
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+small {
+    display: block;
+}
+
+footer {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(232, 222, 222, 0.94);
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hg-conteudo>nav a {
+    background-color: rgb(61, 30, 92);
+    color: rgb(223, 219, 213);
+    border-radius: 25px;
+    margin: 0 0 5px 0;
+    padding: 4px;
+    text-align: justify;
+    min-width: 100px;
+}
+
+nav {
+    text-align: left;
+    color: black;
+    font-weight: 800;
+}
+
+.textomenu {
+    text-align: center;
+}
